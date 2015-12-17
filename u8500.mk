@@ -24,8 +24,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    memtrack.montblanc
 
-# Board
-PRODUCT_PACKAGES += \
-   power.montblanc
-
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.montblanc
