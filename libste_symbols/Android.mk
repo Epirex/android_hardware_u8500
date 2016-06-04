@@ -27,32 +27,6 @@ LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
 
 #
-# compat symbols for cn_server
-#
-
-include $(CLEAR_VARS)
-
-LOCAL_SRC_FILES := ucnv_51.c
-LOCAL_SHARED_LIBRARIES := libicuuc
-LOCAL_MODULE := libicuuc_51
-LOCAL_MODULE_TAGS := optional
-
-include $(BUILD_SHARED_LIBRARY)
-
-#
-# compat symbols for RIL
-#
-
-include $(CLEAR_VARS)
-
-LOCAL_SRC_FILES := ste_ril.cpp
-LOCAL_SHARED_LIBRARIES := libbinder
-LOCAL_MODULE := libste_ril
-LOCAL_MODULE_TAGS := optional
-
-include $(BUILD_SHARED_LIBRARY)
-
-#
 # compat symbols for gps
 #
 
