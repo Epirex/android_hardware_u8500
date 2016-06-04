@@ -24,6 +24,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    iw
 
+# RIL
+PRODUCT_PACKAGES += \
+    libril \
+    libsecril-client \
+    libsec-ril-wrapper
 
 # STE Compat Symbols
 PRODUCT_PACKAGES += \
@@ -32,7 +37,6 @@ PRODUCT_PACKAGES += \
 # STE gps Compat Symbols
 PRODUCT_PACKAGES += \
     libshim_gps
-
 
 # External
 PRODUCT_PACKAGES += \
