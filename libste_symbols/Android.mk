@@ -25,16 +25,3 @@ LOCAL_MODULE := libcamera_symbols
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
-
-#
-# compat symbols for gps
-#
-
-include $(CLEAR_VARS)
-
-LOCAL_SRC_FILES := libshim_gps.c
-LOCAL_SHARED_LIBRARIES := liblog libcutils libgui libbinder libutils
-LOCAL_MODULE := libshim_gps
-LOCAL_MODULE_TAGS := optional
-
-include $(BUILD_SHARED_LIBRARY)

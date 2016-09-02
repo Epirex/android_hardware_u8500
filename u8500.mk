@@ -34,10 +34,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_symbols
 
-# STE gps Compat Symbols
-PRODUCT_PACKAGES += \
-    libshim_gps
-
 # External
 PRODUCT_PACKAGES += \
    memtrack.montblanc
